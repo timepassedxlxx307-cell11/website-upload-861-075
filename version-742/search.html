@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-最新国产电影高清免费观看_热播剧在线片库-在线观看免费</title>
+    <meta name="description" content="影视片库搜索页面，可按标题、题材、地区、年份、标签和剧情关键词查找高清影片。">
+    <meta name="keywords" content="最新国产电影高清免费观看_热播剧在线片库-在线观看免费,国产,视频,免费,在线观看,高清,影视大全,搜索,影片">
+    <link rel="stylesheet" href="./assets/theme.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a class="brand" href="./index.html" aria-label="国产高清片库">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">国产高清片库</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="打开菜单" data-nav-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu" data-nav-menu>
+                <a href="./index.html" class="nav-link">首页</a>
+                <a href="./categories.html" class="nav-link">分类</a>
+                <a href="./ranking.html" class="nav-link">排行榜</a>
+                <a href="./categories/guochan-movie.html" class="nav-link">国产电影</a>
+                <a href="./categories/hot-drama.html" class="nav-link">热播剧集</a>
+                <a href="./categories/youth-love.html" class="nav-link">青春爱情</a>
+                <a href="./categories/suspense-crime.html" class="nav-link">悬疑犯罪</a>
+                <a href="./categories/comedy-family.html" class="nav-link">喜剧家庭</a>
+                <form class="nav-search" action="./search.html" method="get">
+                    <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero slim-hero">
+            <div>
+                <span>影片搜索</span>
+                <h1>搜索高清片库</h1>
+                <p>可按影片名称、题材、地区、年份、标签与剧情关键词查找内容。</p>
+                <form class="hero-search" action="./search.html" method="get">
+                    <input type="search" name="q" placeholder="输入影片名称或关键词" aria-label="输入影片名称或关键词">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2 data-search-title>影片搜索结果</h2>
+                    <p data-search-subtitle>输入关键词后即可查看相关影片。</p>
+                </div>
+            </div>
+            <div class="movie-grid" id="searchResults"></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="brand-mark">▶</span>
+                    <span>国产高清片库</span>
+                </div>
+                <p>提供最新国产电影高清免费观看，并拥有热播国产剧在线片库。内容全面，更新速度快，提供流畅、高清的在线观影服务。</p>
+            </div>
+            <div class="footer-links">
+                <h2>热门分类</h2>
+                <ul>
+                    <li><a href="./categories/guochan-movie.html">国产电影</a></li>
+                    <li><a href="./categories/hot-drama.html">热播剧集</a></li>
+                    <li><a href="./categories/youth-love.html">青春爱情</a></li>
+                    <li><a href="./categories/suspense-crime.html">悬疑犯罪</a></li>
+                    <li><a href="./categories/comedy-family.html">喜剧家庭</a></li>
+                    <li><a href="./categories/action-sci-fi.html">科幻动作</a></li>
+                    <li><a href="./categories/costume-fantasy.html">古装奇幻</a></li>
+                    <li><a href="./categories/story-arthouse.html">剧情文艺</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h2>片库入口</h2>
+                <ul>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./ranking.html">热播排行</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                    <li><a href="./index.html#library">精选片库</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 国产高清片库 · 高清影视免费在线观看</div>
+    </footer>
+    <script src="./assets/movies-data.js"></script>
+    <script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
